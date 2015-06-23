@@ -370,3 +370,37 @@ html {
   margin: 0 auto;
   max-width: 48rem;
   width: 90%; }
+
+nav {
+  *zoom: 1; }
+  nav:before, nav:after {
+    content: "";
+    display: table; }
+  nav:after {
+    clear: both; }
+
+nav {
+  padding: 1em 1em 0 1em; }
+  nav .logo {
+    display: inline;
+    padding: 1em; }
+    nav .logo a {
+      font-size: 1.3em;
+      color: blue;
+      letter-spacing: 1.2px;
+      text-decoration: none; }
+      nav .logo a:hover {
+        color: #0074D9; }
+  nav ul {
+    float: right;
+    margin: 0;
+    padding-top: .35em;
+    list-style: none; }
+  nav li {
+    display: inline;
+    margin: 0 0.5em 0 0.5em; }
+    nav li a {
+      color: blue;
+      text-decoration: none; }
+      nav li a:hover {
+        color: #0074D9; }
