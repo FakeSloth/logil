@@ -1,6 +1,6 @@
 # logil
 
-A luminous CSS framework.
+A luminous front-end framework.
 
 ## Contributing
 
