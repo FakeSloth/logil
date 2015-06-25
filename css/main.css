@@ -385,6 +385,7 @@ nav {
     display: inline;
     padding: 1em; }
     nav .logo a {
+      font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
       font-size: 1.3em;
       color: blue;
       letter-spacing: 1.2px;
@@ -394,12 +395,13 @@ nav {
   nav ul {
     float: right;
     margin: 0;
-    padding-top: .35em;
+    padding-top: .3em;
     list-style: none; }
   nav li {
     display: inline;
     margin: 0 0.5em 0 0.5em; }
     nav li a {
+      font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
       color: blue;
       text-decoration: none; }
       nav li a:hover {
