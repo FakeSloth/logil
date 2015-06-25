@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "A luminous front-end framework.",
   "author": "Philip La <birkal@outlook.com>",
+  "contributors": [
+    "Logan Saunders <timandmoby@gmail.com>"
+  ],
   "license": "MIT",
   "repository": "fakesloth/logil",
   "devDependencies": {
