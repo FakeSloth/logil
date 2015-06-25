@@ -1,6 +1,6 @@
 # logil
 
-A luminous front-end framework.
+A luminous front-end framework built with [Bourbon](http://bourbon.io/).
 
 ## Contributing
 
