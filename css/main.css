@@ -575,7 +575,8 @@ picture {
   max-width: 100%; }
 
 nav {
-  padding: 1em 1em 0 1em; }
+  padding: 1em 1em 0 1em;
+  background: #111; }
   nav::after {
     clear: both;
     content: "";
@@ -604,7 +605,7 @@ nav {
         color: #477dca; }
 
 .footer {
-  background: #40526b;
+  background: #333333;
   padding: 3em 1.618em;
   width: 100%; }
   .footer .footer-logo {
