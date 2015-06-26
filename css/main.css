@@ -813,6 +813,42 @@ header.navigation {
         header.navigation .search-bar input {
           display: block; } }
 
+.hero-unit {
+  position: relative;
+  height: 90vh !important;
+  background-image: url("http://www.thepaperwall.com/wallpapers/space/big/big_3669731ff9f7d9853ebc728cb0f501defb91e666.jpg");
+  background-color: #111;
+  background-position: 50% 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .hero-unit:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    content: ' ';
+    background: #000;
+    opacity: 0.4; }
+  .hero-unit .wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 15px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center; }
+    .hero-unit .wrap h1 {
+      font-size: 4em;
+      font-weight: bold; }
+
 .footer {
   background: #333333;
   padding: 3em 1.618em;
