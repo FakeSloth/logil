@@ -12,6 +12,24 @@ module.exports = function(grunt) {
       }
     },
 
+    cssmin: {
+      target: {
+        files: [{
+          expand: true,
+          src: ['css/*.css'],
+          dest: 'dist',
+        }]
+      }
+    },
+
+
+    uglify: {
+      build: {
+        src: ['js/*.js'],
+        dest: 'dist/js/main.js'
+      }
+    },
+
     watch: {
       sass: {
         files: ['sass/**/*.sass', 'sass/**/*.scss'],
@@ -20,9 +38,11 @@ module.exports = function(grunt) {
     }
 
   });
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.registerTask('build', ['sass']);
 
-  grunt.registerTask('default', ['sass', 'watch']);
+  grunt.registerTask('default', ['sass', 'cssmin', 'uglify', 'watch']);
 
 };
