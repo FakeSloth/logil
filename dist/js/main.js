@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=$("#js-mobile-menu").unbind();$("#js-navigation-menu").removeClass("show"),a.on("click",function(a){a.preventDefault(),$("#js-navigation-menu").slideToggle(function(){$("#js-navigation-menu").is(":hidden")&&$("#js-navigation-menu").removeAttr("style")})})});
