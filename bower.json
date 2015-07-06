@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "homepage": "https://github.com/FakeSloth/logil",
   "authors": [
-    "Philip La <birkal@outlook.com>"
+    "Philip La <birkal@outlook.com>",
+    "Logan Saunders <timandmoby@gmail.com>"
   ],
   "main": "css/main.css",
   "keywords": [
