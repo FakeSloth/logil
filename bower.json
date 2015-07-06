@@ -1,0 +1,25 @@
+{
+  "name": "logil",
+  "version": "0.0.1",
+  "homepage": "https://github.com/FakeSloth/logil",
+  "authors": [
+    "Philip La <birkal@outlook.com>"
+  ],
+  "main": "css/main.css",
+  "keywords": [
+    "css",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "4.x",
+    "neat": "1.x"
+  }
+}
