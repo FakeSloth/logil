@@ -833,7 +833,7 @@ header.navigation {
     content: ' ';
     background: #000;
     opacity: 0.4; }
-  .hero-unit .wrap {
+  .hero-unit > .wrap {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -845,7 +845,7 @@ header.navigation {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center; }
-    .hero-unit .wrap h1 {
+    .hero-unit > .wrap > .heading {
       font-size: 4em;
       font-weight: bold; }
 
