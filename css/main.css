@@ -833,21 +833,22 @@ header.navigation {
     content: ' ';
     background: #000;
     opacity: 0.4; }
-  .hero-unit > .wrap {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 100%;
-    max-width: 800px;
-    padding: 0 15px;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center; }
-    .hero-unit > .wrap > .heading {
-      font-size: 4em;
-      font-weight: bold; }
+
+.wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 15px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center; }
+  .wrap > .heading {
+    font-size: 4em;
+    font-weight: bold; }
 
 .footer {
   background: #333333;
