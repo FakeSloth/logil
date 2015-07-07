@@ -41,6 +41,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['sass']);
 
+  grunt.registerTask('iter', ['sass', 'watch']);
+
   grunt.registerTask('default', ['sass', 'cssmin', 'uglify', 'watch']);
 
 };
